@@ -39,4 +39,76 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 3rem;
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #b30000;
+  color: white;
+}
+
+.hero-logo {
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.4rem;
+  background: white;
+  color: #b30000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* BOXES */
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: white;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.btn-small {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #b30000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* HISTORY */
+.history {
+  background: #eee;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* EVENTS */
+.events {
+  padding: 2rem 1rem;
+}
+
+.events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
 }
